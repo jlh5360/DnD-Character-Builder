@@ -1,0 +1,8 @@
+{
+    "init": ["Find A Date", "what would you like?", "man", "woman"],
+    "man": ["", "what kind of man?", "tall", "short"],
+    "tall": ["", "what else?", "thin", "husky-like"],
+    "husky-like": ["", "and what else?", "beard", "shave"],
+    "woman": ["", "what about her hair?", "blonde", "red"],
+    "red": ["", "chose red for loop", "blonde", "red"]
+}

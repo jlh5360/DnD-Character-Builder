@@ -1,0 +1,37 @@
+{
+    "init": ["D&D Character Builder", "Choose your race:", "Human", "Elf", "Dwarf", "Halfling", "Orc"],
+    "Human": ["", "Choose your class:", "Fighter", "Rogue", "Wizard", "Cleric", "Bard"],
+    "Elf": ["", "Choose your class:", "Ranger", "Sorcerer", "Druid", "Bard", "Warlock"],
+    "Dwarf": ["", "Choose your class:", "Barbarian", "Paladin", "Warlock", "Monk", "Ranger"],
+    "Halfling": ["", "Choose your class:", "Ranger", "Rogue", "Bard", "Wizard", "Cleric"],
+    "Orc": ["", "Choose your class:", "Barbarian", "Fighter", "Rogue", "Sorcerer", "Cleric"],
+    
+    "Fighter": ["", "Choose your alignment:", "Lawful Good", "Chaotic Neutral", "Neutral Good", "Chaotic Good"],
+    "Rogue": ["", "Choose your alignment:", "Neutral Evil", "Chaotic Good", "Lawful Neutral", "Chaotic Neutral"],
+    "Wizard": ["", "Choose your alignment:", "Lawful Neutral", "Neutral Good", "Chaotic Evil", "True Neutral"],
+    "Cleric": ["", "Choose your alignment:", "Chaotic Evil", "Lawful Evil", "Chaotic Neutral", "Neutral Evil"],
+    "Bard": ["", "Choose your alignment:", "Neutral", "Chaotic Good", "Lawful Neutral", "True Neutral"],
+    "Ranger": ["", "Choose your favored enemy type:", "Undead", "Dragons", "Beasts", "Giants"],
+    "Sorcerer": ["", "Choose your bloodline:", "Dragon Ancestry", "Wild Magic", "Divine Soul", "Shadow Magic"],
+    "Druid": ["", "Choose your elemental focus:", "Fire", "Water", "Earth", "Air"],
+    "Barbarian": ["", "Choose your primal path:", "Path of the Berserker", "Path of the Totem Warrior", "Path of the Storm Herald", "Path of the Zealot"],
+    "Paladin": ["", "Choose your oath:", "Oath of Devotion", "Oath of Vengeance", "Oath of the Ancients", "Oath of Conquest"],
+    "Warlock": ["", "Choose your patron:", "The Fiend", "The Archfey", "The Great Old One", "The Celestial"],
+    "Monk": ["", "Choose your monastic tradition:", "Way of the Open Hand", "Way of Shadow", "Way of the Four Elements", "Way of the Kensei"],
+    
+    "Alignment": ["", "Choose your deity:", "Bahamut", "Tiamat", "Pelor", "Corellon Larethian"],
+    "Favored Enemy": ["", "Choose your favored terrain:", "Forest", "Mountains", "Desert", "Swamp"],
+    "Bloodline": ["", "Choose your ancestry:", "Tiefling", "Aasimar", "Genasi", "Shifter"],
+    "Elemental Focus": ["", "Choose your elemental affinity:", "Lightning", "Ice", "Poison", "Radiant"],
+    "Primal Path": ["", "Choose your animal totem:", "Bear", "Wolf", "Eagle", "Tiger"],
+    "Oath": ["", "Swear your oath on:", "Your honor", "Your family", "Your deity", "Your weapon"],
+    "Patron": ["", "Pledge allegiance to:", "The Raven Queen", "The Undying", "The Celestial", "The Hexblade"],
+    "Monastic Tradition": ["", "Embrace the teachings of:", "The Way of the Long Death", "The Way of the Drunken Master", "The Way of the Sun Soul", "The Way of the Mercy"],
+    
+    "Deity": ["", "Select a domain:", "Life", "Death", "Nature", "Tempest"],
+    "Favored Terrain": ["", "Choose your camouflage:", "Forest", "Swamp", "Desert", "Arctic"],
+    "Ancestry": ["", "Select a feature:", "Infernal Legacy", "Celestial Legacy", "Elemental Resistance", "Shifter Transformation"],
+    "Elemental Affinity": ["", "Select your spell focus:", "Thunder", "Frost", "Acid", "Necrotic"],
+    "Animal Totem": ["", "Choose your spirit animal:", "Raven", "Fox", "Bear", "Lion"],
+    "Sworn Oath": ["", "Swear your oath on:", "Your sword", "The land", "Your companions", "Your kingdom"]
+}

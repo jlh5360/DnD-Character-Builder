@@ -1,0 +1,324 @@
+body {
+    /* padding: 0.5em; */
+    color: rgb(39, 27, 19);
+    /* font-size: 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive; */
+    /* color: white; */
+    /* background-color: white; */
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    /* text-shadow: -1px -1px 0 #271b13, 1px -1px 0 #271b13, -1px 1px 0 #271b13, 1px 1px 0 #271b13; */
+    /* color: black; */
+    background-color: black;
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 100vh;
+    max-height: 150vh;
+
+    /* height: 100vh; */
+    /* height: 150vh; */
+    /* height: auto; */
+
+    background-image: url(../media/D&D/D&D_3.jpg);
+    /* background-image: url(../media/recommend_movies/iste_340_project1_background_2.jpg); */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: auto;
+    margin: 0%;
+
+    overflow-x: hidden;
+}
+
+#data_title {
+    /* background-color: rgba(247, 247, 247, 0.85); */
+    background-color: rgba(240, 240, 240, 0.185);
+    /* background-color: rgb(240, 240, 240); */
+}
+
+#container4 {
+    /* height: 100vh; */
+
+    /* background-color: rgb(223, 250, 255); */
+    background-color: rgba(247, 247, 247, 0.57);
+    /* background-color: rgba(247, 247, 247, 0.97); */
+    box-shadow: inset -10px 0 10px -10px rgb(0, 0, 0);
+}
+
+#developer_info_holder {
+    /* Spans/Takes the 1st (first) column */
+    grid-column: 1;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 6%;
+    /* height: 100vh; */
+}
+
+/* #developer_info_img_element {
+    top: 50%;
+} */
+
+#developer_info, #data_title {
+    text-align: center;
+}
+
+#data_title {
+    text-align: center;
+    /* background-color: rgb(184, 206, 206); */
+    /* margin: 1em; */
+    padding-top: 1em;
+    text-decoration: underline;
+}
+
+#developer_info_photo_ID {
+    border-radius: 40px;
+    width: 50%;
+    height: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30),
+                0px 0px 20px rgba(0, 0, 0, 0.30);
+}
+
+#developer_info_position {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#container1 {
+    /* background-image: url(../media/iste_340_project1_background.jpg);
+    background-repeat: no-repeat; */
+
+    /* background-color: white; */
+
+    background-color: rgba(247, 247, 247, 0.291);
+    /* background-color: rgba(255, 255, 255, 0.80); */
+    /* box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.70); */
+    /* background-size: contain; */
+    /* opacity: 10%; */
+
+    /* Spans/Takes the 2nd (second) and 3rd (third) columns */
+    grid-column: 2/4;
+    /* height: 100vh; */
+    
+    /* height: 150vh; */
+    position: relative;
+}
+
+#container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 5em; */
+    padding: 1em;
+    /* background-color: white; */
+}
+
+#container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    /* padding: 0.5em; */
+}
+
+#select_holder {
+    /* border-right: 5px dashed black; */
+    border-left: 1.75px dashed white;
+    /* border-left: 1.75px dashed black; */
+    text-align: right;
+}
+
+#user_info_form_holder {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* text-align: right; */
+    border-right: 1.75px dashed white;
+    /* border-right: 1.75px dashed black; */
+}
+
+#user_info_form_holder, #select_holder {
+    padding: 2em;
+}
+
+.formButtons {
+    /* background-color: rgb(181, 181, 181); */
+    background-color: rgb(213, 213, 213);
+    transition-duration: 0.2s;
+    /* box-shadow: inset -10px 0 10px -10px rgba(0,0,0,0.30); */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30),
+                0px 0px 20px rgba(0, 0, 0, 0.30); */
+    box-shadow: 0 4px 10px -2px rgba(0,0,0,0.30);
+}
+
+.formButtons:hover {
+    /* background-color: rgb(95, 95, 95); */
+    background-color: rgb(152, 152, 152);
+}
+
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+    body {
+        /* padding: 0.5em; */
+        background-color: black;
+        /* background-color: bisque; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100vh;
+
+        background-image: url(../media/D&D/D&D_3.jpg);
+        /* background-image: url(../media/recommend_movies/iste_340_project1_background_2.jpg); */
+        /* background-repeat: no-repeat; */
+        background-size: contain;
+        margin: 0%;
+
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label, input {
+        font-size: 16;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    #container4 {
+        /* height: 100vh; */
+
+        /* background-color: rgb(223, 250, 255); */
+        background-color: rgba(247, 247, 247, 0.57);
+        /* background-color: rgba(247, 247, 247, 0.97); */
+        box-shadow: inset -10px 0 10px -10px rgb(0, 0, 0);
+    }
+
+    #developer_info_holder {
+        /* Spans/Takes the 1st (first) column */
+        display: grid;
+        grid-column: 1;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+        /* justify-content: flex-start; */
+        position: static;
+        align-items: center;
+        top: 20%;
+        padding: 1em;
+        /* height: 100vh; */
+    }
+
+    /* #developer_info_img_element {
+        top: 50%;
+    } */
+
+    #developer_info, #data_title {
+        text-align: center;
+    }
+
+    #data_title {
+        text-align: center;
+        /* background-color: rgb(184, 206, 206); */
+        /* margin: 1em; */
+        padding-top: 1em;
+        text-decoration: underline;
+    }
+
+    #developer_info_photo_ID {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        border-radius: 40px;
+        /* margin-left: 1.20em; */
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30),
+                    0px 0px 20px rgba(0, 0, 0, 0.30);
+    }
+
+    #developer_info {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    #developer_info_position {
+        grid-column: 2/4;
+        grid-row: 2/3;
+        font-size: 16px;
+    }
+
+    #container1 {
+        /* background-image: url(../media/iste_340_project1_background.jpg);
+        background-repeat: no-repeat; */
+
+        /* background-color: white; */
+
+        background-color: rgba(255, 255, 255, 0.80);
+        /* box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.70); */
+        /* background-size: contain; */
+        /* opacity: 10%; */
+
+        /* Spans/Takes the 2nd (second) and 3rd (third) columns */
+        grid-column: 1;
+        height: 100vh;
+        position: relative;
+    }
+
+    #container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* column-gap: 5em; */
+        padding: 1em;
+        /* background-color: white; */
+    }
+
+    #container3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr; */
+        /* padding: 0.5em; */
+    }
+
+    #select_holder {
+        /* border-right: 5px dashed black; */
+        border-left: 1.75px dashed white;
+        /* border-left: 1.75px dashed black; */
+        text-align: right;
+    }
+
+    #user_info_form {
+        margin-top: -1em;
+    }
+
+    #user_info_form_holder {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        /* grid-template-columns: repeat(2, 1fr); */
+        /* grid-template-rows: repeat(3, 1fr); */
+        /* text-align: right; */
+        border-right: 1.75px dashed white;
+        /* border-right: 1.75px dashed black; */
+    }
+
+    #user_info_form_holder, #select_holder {
+        padding: 0em;
+    }
+
+    .formButtons {
+        /* background-color: rgb(181, 181, 181); */
+        background-color: rgb(213, 213, 213);
+        transition-duration: 0.2s;
+        /* box-shadow: inset -10px 0 10px -10px rgba(0,0,0,0.30); */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30),
+                    0px 0px 20px rgba(0, 0, 0, 0.30); */
+        box-shadow: 0 4px 10px -2px rgba(0,0,0,0.30);
+        /* font-size: 16px; */
+    }
+
+    .formButtons:hover {
+        /* background-color: rgb(95, 95, 95); */
+        background-color: rgb(152, 152, 152);
+    }
+}
